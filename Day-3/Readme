@@ -1,0 +1,37 @@
+Axilex Internship
+Day 3 Conditional Statements
+
+This task is about using conditional statements in Python to solve simple problems.
+
+Program 1 Even or Odd
+
+This program takes a number as input and checks whether it is even or odd.
+
+Expected Outcome
+The program should print whether the entered number is even or odd.
+
+Actual Outcome
+The program ran successfully and displayed the correct result.
+
+Program 2 Largest of Three Numbers
+
+This program takes three numbers as input and compares them to find the largest number.
+
+Expected Outcome
+The program should display the largest number among the three inputs.
+
+Actual Outcome
+The program compared the values correctly and printed the largest number.
+
+Program 3 Pass or Fail
+
+This program takes marks as input and checks whether the student has passed or failed.
+
+Expected Outcome
+If the marks are 35 or above the result should be Pass otherwise Fail.
+
+Actual Outcome
+The program evaluated the marks correctly and displayed the appropriate result.
+
+Final Outcome
+By completing this task I was able to understand and apply conditional statements in Python to solve logical problems.

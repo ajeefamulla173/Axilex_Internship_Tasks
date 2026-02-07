@@ -1,0 +1,36 @@
+Loops
+
+This task focuses on understanding repetition and iteration in Python using for and while loops.
+
+Program 1 For Loop and While Loop Demonstration
+
+This program shows how for and while loops can be used to repeat statements multiple times based on a condition.
+
+Expected Outcome
+The program should print numbers repeatedly using both for and while loops.
+
+Actual Outcome
+The program executed successfully and displayed the sequence of numbers using both looping methods.
+
+Program 2 Multiplication Table
+
+This program takes a number from the user and prints its multiplication table using a loop.
+
+Expected Outcome
+The program should generate and display the multiplication table of the entered number.
+
+Actual Outcome
+The program correctly printed the multiplication table from 1 to 10.
+
+Program 3 Star Pattern
+
+This program uses loops to print a simple increasing star pattern based on the number of rows given by the user.
+
+Expected Outcome
+The program should display the star pattern in proper format.
+
+Actual Outcome
+The program successfully printed the star pattern as expected.
+
+Final Outcome
+By completing this task I gained understanding of loops, iteration, and how repetitive tasks can be automated in Python.

@@ -1,0 +1,36 @@
+Functions and Code Reusability
+
+This task focuses on creating functions in Python and reusing them to perform different logical operations.
+
+Program 1 Arithmetic Operations using Functions
+
+This program defines separate functions for addition, subtraction, multiplication, and division. The user enters two numbers and the functions are called to perform the operations.
+
+Expected Outcome
+The program should perform all arithmetic operations using functions and display the results.
+
+Actual Outcome
+The program successfully executed all the defined functions and printed the correct arithmetic results.
+
+Program 2 Factorial of a Number
+
+This program uses a function to calculate the factorial of a given number. The number is taken as input and the function computes the result using a loop.
+
+Expected Outcome
+The program should calculate and display the factorial of the entered number.
+
+Actual Outcome
+The program correctly computed the factorial value and displayed the output without errors.
+
+Program 3 Prime Number Check
+
+This program defines a function to check whether a number is prime or not. Based on the function result, the appropriate message is displayed.
+
+Expected Outcome
+The program should identify whether the entered number is prime.
+
+Actual Outcome
+The program evaluated the number correctly and displayed whether it is prime or not.
+
+Final Outcome
+By completing this task I learned how to write reusable functions, improve code structure, and apply modular programming in Python.

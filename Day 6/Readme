@@ -1,0 +1,48 @@
+Practice & Logic Building
+
+This task focuses on improving problem solving skills using basic Python programs.  
+Each program takes input from the user, applies logic, and prints the result.
+
+Programs included:
+
+1. Reverse a Number  
+Expected Outcome:  
+The program should reverse the digits of the given number.
+
+Actual Outcome:  
+The program successfully reversed the number and displayed the correct result.
+
+
+2. Palindrome Number  
+Expected Outcome:  
+The program should check whether the number reads the same forward and backward.
+
+Actual Outcome:  
+The program correctly identified whether the number is palindrome or not.
+
+
+3. Count Digits  
+Expected Outcome:  
+The program should count how many digits are present in the number.
+
+Actual Outcome:  
+The program counted the digits accurately.
+
+
+4. Sum of Digits  
+Expected Outcome:  
+The program should calculate the total sum of all digits.
+
+Actual Outcome:  
+The program calculated and printed the correct sum.
+
+
+5. Fibonacci Series  
+Expected Outcome:  
+The program should print Fibonacci numbers up to the given terms.
+
+Actual Outcome:  
+The program generated the series correctly.
+
+Outcome of the Task:
+Gained better understanding of loops, conditions, and logical thinking in Python.

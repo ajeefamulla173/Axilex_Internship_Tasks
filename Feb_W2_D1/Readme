@@ -1,0 +1,41 @@
+Python Lists and Tuples
+
+This task focuses on understanding basic operations on lists and converting them into tuples.  
+The programs demonstrate creation, searching, sorting, and type conversion.
+
+Programs included:
+
+1. Create and Display a List  
+Expected Outcome:  
+The program should create a list of numbers and display it.
+
+Actual Outcome:  
+The list was created successfully and printed correctly.
+
+
+2. Largest and Smallest Number in a List  
+Expected Outcome:  
+The program should find the maximum and minimum values from the list.
+
+Actual Outcome:  
+The program displayed the correct largest and smallest numbers.
+
+
+3. Sort List in Ascending and Descending Order  
+Expected Outcome:  
+The program should sort the list from smallest to largest and vice versa.
+
+Actual Outcome:  
+The program sorted the list correctly in both ascending and descending order.
+
+
+4. Convert List to Tuple  
+Expected Outcome:  
+The program should convert the given list into a tuple.
+
+Actual Outcome:  
+The list was successfully converted and printed as a tuple.
+
+
+Outcome of the Task:
+Understood how to store multiple values using lists, apply operations like sorting and searching, and learned the difference between lists and tuples.

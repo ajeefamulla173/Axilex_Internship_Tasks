@@ -1,0 +1,36 @@
+Dictionaries and Sets
+
+This task focuses on understanding Python dictionaries and sets, performing basic operations, and solving problems using these data structures.
+
+Programs included:
+
+1. Create Dictionary of Student Details
+Expected Outcome:
+The program should create a dictionary containing student details like Name, Age, Branch, College, and USN, and display it.
+
+Actual Outcome:
+The dictionary was created successfully and printed correctly.
+
+2. Add, Update, and Delete Elements
+Expected Outcome:
+The program should allow adding new elements, updating existing ones, and deleting keys from the dictionary.
+
+Actual Outcome:
+Elements were added, updated, and deleted successfully, and the dictionary displayed the correct changes.
+
+3. Count Word Frequency Using Dictionary
+Expected Outcome:
+The program should count the frequency of each word in a given sentence using a dictionary.
+
+Actual Outcome:
+The word frequency was calculated correctly and displayed in dictionary format.
+
+4. Perform Set Operations
+Expected Outcome:
+The program should perform union, intersection, difference, and symmetric difference operations on two sets.
+
+Actual Outcome:
+All set operations were performed correctly, and the results were displayed.
+
+Outcome of the Task:
+Understood how to use Python dictionaries for storing key-value pairs, manipulate dictionary data, count word frequency, and perform basic set operations for handling unique elements.

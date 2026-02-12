@@ -1,0 +1,48 @@
+Strings and Operations
+
+This task focuses on performing different operations on strings such as reversing, checking palindrome, counting characters, and slicing.
+
+Programs included:
+
+1. Reverse a String
+Expected Outcome:
+The program should reverse the given string.
+
+Actual Outcome:
+The string was reversed successfully and displayed correctly.
+
+
+2. Palindrome Check
+Expected Outcome:
+The program should check whether the input string is the same forward and backward.
+
+Actual Outcome:
+The program correctly identified whether the string is a palindrome or not.
+
+
+3. Count Vowels and Consonants
+Expected Outcome:
+The program should count the number of vowels and consonants present in the string.
+
+Actual Outcome:
+The program counted vowels and consonants accurately.
+
+
+4. Character Frequency
+Expected Outcome:
+The program should calculate how many times each character appears in the string.
+
+Actual Outcome:
+The frequency of each character was calculated and displayed correctly.
+
+
+5. String Slicing
+Expected Outcome:
+The program should demonstrate slicing operations like extracting first and last characters and reversing.
+
+Actual Outcome:
+The slicing operations worked correctly and the results were displayed.
+
+
+Outcome of the Task:
+Learned how to manipulate strings, apply conditions, loop through characters, and use slicing techniques in Python.

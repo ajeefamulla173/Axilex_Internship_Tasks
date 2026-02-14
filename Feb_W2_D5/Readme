@@ -1,0 +1,36 @@
+ Exception Handling in Python
+
+1. Try-Except Program
+Expected Outcome:
+The program should accept user input and handle invalid entries using exception handling.
+
+Actual Outcome:
+The program successfully handled wrong input and displayed an error message instead of stopping.
+
+
+2. Handle Division by Zero
+Expected Outcome:
+The program should prevent division when the denominator is zero and show an appropriate message.
+
+Actual Outcome:
+The division by zero condition was handled correctly and the program displayed an error message.
+
+
+3. Handle File Errors
+Expected Outcome:
+The program should handle situations where the file does not exist.
+
+Actual Outcome:
+When the file was missing, the program caught the error and informed the user properly.
+
+
+4. Custom Exception Example
+Expected Outcome:
+The program should raise and handle a user-defined exception for invalid data.
+
+Actual Outcome:
+The custom exception worked correctly and displayed the warning message when the condition failed.
+
+
+Outcome of the Task:
+Learned how to manage errors using try and except, prevent program crashes, and create custom exceptions for better control over program execution.

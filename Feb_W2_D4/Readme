@@ -1,0 +1,36 @@
+File Handling in Python
+
+1. Create and Write File
+Expected Outcome:
+The program should create a file and write data into it.
+
+Actual Outcome:
+The file was created successfully and the data was written without any errors.
+
+
+2. Read File Data
+Expected Outcome:
+The program should read the content from the file and display it.
+
+Actual Outcome:
+The file content was read and printed correctly.
+
+
+3. Append Data
+Expected Outcome:
+The program should add new information to the existing file without removing old data.
+
+Actual Outcome:
+New data was appended successfully and was visible when the file was read again.
+
+
+4. Store Student Records
+Expected Outcome:
+The program should take student details as input and store them in a file.
+
+Actual Outcome:
+The student information was saved correctly into the file.
+
+
+Outcome of the Task:
+Learned how to perform file operations such as write, read, and append, and understood how files can be used to store and manage data permanently.

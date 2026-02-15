@@ -1,0 +1,44 @@
+Mini Practice Programs
+
+1. Student Management System
+Expected Outcome:
+The program should allow adding and viewing student details using a simple menu.
+
+Actual Outcome:
+Students were added successfully and the records were displayed correctly.
+
+
+2. Calculator Using Functions
+Expected Outcome:
+The program should perform arithmetic operations by calling separate functions.
+
+Actual Outcome:
+All operations like addition, subtraction, multiplication, and division were executed correctly.
+
+
+3. Menu Driven Program
+Expected Outcome:
+The program should display options to the user and perform actions based on the selected choice.
+
+Actual Outcome:
+The menu worked properly and the correct messages were displayed for each option.
+
+
+4. File Based Record System
+Expected Outcome:
+The program should store user details in a file so that data is saved permanently.
+
+Actual Outcome:
+The records were written into the file successfully.
+
+
+5. Dictionary Application
+Expected Outcome:
+The program should search for a word in a dictionary and display its meaning.
+
+Actual Outcome:
+The correct meaning was displayed when the word existed, otherwise an appropriate message was shown.
+
+
+Outcome of the Task:
+Learned how to integrate multiple Python concepts together to create small real-world style programs and improved problem-solving ability.

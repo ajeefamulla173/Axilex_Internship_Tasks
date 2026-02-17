@@ -1,0 +1,46 @@
+Introduction to HTML
+
+File Name: index.html
+
+Features Implemented:
+
+1. Animated Main Heading
+- The heading "Welcome to My HTML Page" includes smooth floating animation.
+- Large font size to clearly differentiate it from other content.
+
+2. Styled Layout
+- Dark purple gradient background.
+- Light lavender inner container for strong contrast.
+- Center aligned professional layout.
+
+3. Section Design
+- Each content block is placed inside styled section cards.
+- Hover effects added for better user interaction.
+
+4. Image
+- Technology-related image added.
+- Hover zoom effect implemented.
+
+5. Hyperlink
+- Styled button-like link with hover color change.
+
+6. Lists
+- Ordered list and unordered list properly structured and aligned.
+
+7. Table
+- Student details displayed in a styled table.
+- Header highlighted with purple background.
+- Hover effect added for rows.
+
+Expected Outcome:
+The web page should display structured content with clear hierarchy and professional styling using HTML and CSS.
+
+Actual Outcome:
+The page displays animated heading, purple themed background, styled sections, interactive elements, and properly formatted table with clean visual contrast.
+
+Learning Outcome:
+- Understood basic HTML structure.
+- Learned how to apply CSS styling.
+- Implemented animations using keyframes.
+- Improved UI design and layout skills.
+- Created a professional-looking static webpage.

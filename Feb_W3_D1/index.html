@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purple Modern Page</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #2e003e, #4b0082, #6a0dad);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            background: #f8f5ff;
+            padding: 50px;
+            border-radius: 25px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+            text-align: center;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* MAIN HEADING */
+        h1 {
+            font-size: 48px;
+            color: #4b0082;
+            margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes float {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        /* SECTION CARDS */
+        .section {
+            background: #ffffff;
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 18px;
+            transition: 0.4s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 35px rgba(75,0,130,0.2);
+        }
+
+        .section h2 {
+            font-size: 26px;
+            color: #6a0dad;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 350px;
+            border-radius: 18px;
+            margin-top: 15px;
+            transition: 0.4s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #6a0dad;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        a:hover {
+            background: #4b0082;
+        }
+
+        ol, ul {
+            list-style-position: inside;
+            font-size: 17px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #6a0dad;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        td {
+            padding: 15px;
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover td {
+            background: #f1e6ff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to My HTML Page</h1>
+
+        <p class="subtitle">
+            A modern purple themed webpage with strong contrast and clean professional layout.
+        </p>
+
+        <div class="section">
+            <h2>Technology Image</h2>
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Coding Image">
+        </div>
+
+        <div class="section">
+            <h2>Useful Resource</h2>
+            <a href="https://www.google.com" target="_blank">Visit Google</a>
+        </div>
+
+        <div class="section">
+            <h2>Steps to Learn HTML</h2>
+            <ol>
+                <li>Understand structure</li>
+                <li>Learn tags and elements</li>
+                <li>Practice CSS styling</li>
+                <li>Build projects</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>HTML Topics</h2>
+            <ul>
+                <li>Headings & Paragraphs</li>
+                <li>Images & Links</li>
+                <li>Lists</li>
+                <li>Tables</li>
+                <li>Forms</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Student Details</h2>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Branch</th>
+                </tr>
+                <tr>
+                    <td>Azifa</td>
+                    <td>21</td>
+                    <td>AI & ML</td>
+                </tr>
+                <tr>
+                    <td>Rabiya</td>
+                    <td>22</td>
+                    <td>Computer Science</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>

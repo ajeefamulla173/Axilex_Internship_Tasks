@@ -1,0 +1,55 @@
+Forms & Input Elements
+
+File Name: form.html
+
+Task Description:
+Create a registration form using HTML with proper labels and appropriate input types. 
+Style the form using CSS to make it visually appealing and professional.
+
+Form Fields Included:
+
+1. Full Name
+- Input type: text
+- Used for entering user's name
+
+2. Email
+- Input type: email
+- Validates correct email format
+
+3. Phone Number
+- Input type: tel
+- Accepts numeric phone input
+
+4. Password
+- Input type: password
+- Hides entered characters for security
+
+5. Gender
+- Input type: radio buttons
+- Allows user to select one option (Male, Female, Other)
+
+6. Submit Button
+- Styled button with hover effect
+- Used to submit the form
+
+Design Features:
+
+- Purple gradient background
+- Centered registration card
+- Rounded corners and shadow effects
+- Input focus highlight effect
+- Clean spacing and alignment
+- Smooth fade-in animation
+
+Expected Outcome:
+The registration form should collect user details using appropriate input types and display a professional UI design.
+
+Actual Outcome:
+The form successfully displays all required input fields with proper labels, validation, and styled layout.
+
+Learning Outcome:
+- Learned different HTML input types
+- Understood the importance of label tags
+- Implemented radio button grouping
+- Applied CSS styling to forms
+- Improved UI design skills

@@ -1,0 +1,48 @@
+# CSS Basics - Design
+
+# Project Overview
+This project demonstrates fundamental CSS concepts with an enhanced and creative user interface design.  
+It includes background styling, font customization, borders, margin, padding, layout design, and button styling.
+
+The design uses a purple-themed animated gradient background with a glass-style card layout.
+
+# Objectives Covered
+
+- Background color (Animated Gradient)
+- Font styling (Typography and spacing)
+- Borders (Card and feature boxes)
+- Margin (External spacing)
+- Padding (Internal spacing)
+- Button styling (Hover and transition effects)
+- Flexbox layout
+- CSS animations
+
+# Files Included
+
+- `index.html` – Main HTML structure
+- `style.css` – CSS styling file
+- `README.md` – Project documentation
+
+# Design Features
+
+- Animated purple gradient background
+- Glassmorphism card design
+- Feature boxes with hover effects
+- Interactive styled button
+- Proper spacing using margin and padding
+- Clean and modern layout
+
+# Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Animations, Transitions)
+
+# How to Run the Project
+
+1. Download all files.
+2. Keep `index.html` and `style.css` in the same folder.
+3. Open `index.html` in any web browser.
+
+# Author
+
+Created as part of Day 3 CSS learning task.

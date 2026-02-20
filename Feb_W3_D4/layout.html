@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modern Layout Design</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f6fa;
+            color: #333;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(to right, #4b0082, #6a0dad);
+            color: white;
+            padding: 20px 60px; /* padding */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* NAVBAR */
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin-left: 25px; /* margin */
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            opacity: 0.7;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: white;
+            margin: 40px auto; /* margin */
+            padding: 50px; /* padding */
+            width: 85%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: #6a0dad;
+            color: white;
+            padding: 12px 30px; /* padding */
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #4b0082;
+            transform: scale(1.05);
+        }
+
+        /* CONTENT SECTION */
+        .content {
+            width: 85%;
+            margin: 40px auto; /* margin */
+            display: flex;
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            flex: 1;
+            padding: 30px; /* padding */
+            border-radius: 15px;
+            border: 2px solid #eee; /* border */
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: #6a0dad;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #2e004f;
+            color: white;
+            text-align: center;
+            padding: 20px; /* padding */
+            margin-top: 50px; /* margin */
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">MyWebsite</div>
+
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Modern Layout Design</h1>
+        <p>
+            This layout demonstrates header, navigation bar, content section,
+            and footer using div elements with proper box model concepts.
+        </p>
+        <button class="btn">Get Started</button>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <div class="card">
+            <h3>Header & Navbar</h3>
+            <p>
+                Created using div elements and styled using flexbox for modern alignment.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Box Model</h3>
+            <p>
+                Proper usage of margin, padding, border, and box-sizing for clean spacing.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Modern Design</h3>
+            <p>
+                Gradient colors, shadows, hover effects, and responsive layout techniques.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 Modern Layout Design | All Rights Reserved
+    </div>
+
+</body>
+</html>

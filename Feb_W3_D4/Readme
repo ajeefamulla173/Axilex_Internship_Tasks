@@ -1,0 +1,63 @@
+# Layout Design
+
+# Project Overview
+
+This project demonstrates how to create a structured webpage layout using `div` elements.  
+The layout includes a Header, Navigation Bar, Hero Section, Content Section, and Footer.
+
+It also applies proper Box Model concepts such as margin, padding, border, width, and box-sizing.
+
+# Objectives
+
+- Create a Header using div
+- Create a Navbar using div
+- Create a Content section using div
+- Create a Footer using div
+- Apply Box Model concepts
+- Use modern styling techniques
+
+# Layout Structure
+
+The webpage contains:
+
+1. Header  
+   - Logo and navigation links  
+   - Styled using Flexbox for alignment  
+
+2. Hero Section  
+   - Main heading  
+   - Description text  
+   - Styled button  
+
+3. Content Section  
+   - Three feature cards  
+   - Hover effects  
+   - Proper spacing and borders  
+
+4. Footer  
+   - Simple centered footer content  
+
+# Box Model Concepts Used
+
+- Margin (outer spacing)
+- Padding (inner spacing)
+- Border (card and section styling)
+- Width control
+- box-sizing: border-box
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Transitions
+- Box Model
+
+# How to Run
+
+1. Save the file as `layout.html`.
+2. Open the file in any web browser.
+
+# Author
+
+Created as part of Layout Design learning task.

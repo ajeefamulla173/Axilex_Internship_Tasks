@@ -1,0 +1,50 @@
+# Responsive Design
+
+# Project Overview
+
+This project demonstrates the implementation of Responsive Web Design using percentage-based widths and CSS media queries.  
+The layout automatically adapts to different screen sizes including desktop, tablet, and mobile devices.
+
+The design includes a modern header, hero section, content cards, and footer with a futuristic visual style.
+
+# Objectives Covered
+
+- Use percentage width for flexible layouts
+- Implement Flexbox for responsive structure
+- Apply media queries for different screen sizes
+- Optimize layout for mobile view
+- Create a visually modern and creative interface
+
+# Features
+
+- Animated gradient background
+- Glassmorphism content cards
+- Responsive navigation layout
+- Hover effects and transitions
+- Flexible card widths using percentages
+- Automatic stacking layout on smaller screens
+
+# Responsive Behavior
+
+- Desktop: Cards are displayed side-by-side using percentage widths.
+- Tablet: Cards adjust into two columns.
+- Mobile: Cards stack vertically for better readability.
+- Navigation is simplified on smaller screens.
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- Media Queries
+- CSS Animations
+
+# How to Run the Project
+
+1. Save the file as `responsive.html`.
+2. Open the file in any web browser.
+3. Resize the browser window or use mobile view in developer tools to test responsiveness.
+
+# Author
+
+Created as part of Day 5 Responsive Design learning task.

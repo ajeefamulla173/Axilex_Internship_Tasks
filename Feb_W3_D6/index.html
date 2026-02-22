@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Futuristic JS App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #4b0082);
+            background-size: 400% 400%;
+            animation: gradientMove 12s ease infinite;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(20px);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 0 40px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 15px #00f5ff;
+            transition: 0.3s;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        button {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #00f5ff;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            box-shadow: 0 0 20px #00f5ff;
+            transform: scale(1.05);
+        }
+
+        input {
+            padding: 8px;
+            border-radius: 10px;
+            border: none;
+            margin: 5px 0;
+            width: 100%;
+        }
+
+        .result, .message {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .calculator {
+            display: flex;
+            gap: 10px;
+        }
+
+        .calculator input {
+            width: 45%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="mainText">JavaScript App</h1>
+
+        <!-- Alert Section -->
+        <section>
+            <h3>Alert System</h3>
+            <button onclick="showAlert()">Trigger Alert</button>
+        </section>
+
+        <!-- Change Text -->
+        <section>
+            <h3>Dynamic Text</h3>
+            <button onclick="changeText()">Change Heading</button>
+        </section>
+
+        <!-- Calculator -->
+        <section>
+            <h3>Smart Calculator</h3>
+            <div class="calculator">
+                <input type="number" id="num1" placeholder="Number 1">
+                <input type="number" id="num2" placeholder="Number 2">
+            </div>
+            <br>
+            <button onclick="calculate()">Calculate</button>
+            <div class="result" id="result"></div>
+        </section>
+
+        <!-- Form Validation -->
+        <section>
+            <h3>Form Validation</h3>
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="email" id="email" placeholder="Enter Email">
+            <input type="password" id="password" placeholder="Enter Password">
+            <button onclick="validateForm()">Submit</button>
+            <div class="message" id="message"></div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

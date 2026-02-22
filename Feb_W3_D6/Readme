@@ -1,0 +1,40 @@
+# JavaScript Basics
+
+# Project Overview
+This project demonstrates basic JavaScript concepts with a modern and futuristic user interface.  
+It includes alert messages, dynamic text changes, form validation, and a simple calculator.
+
+# Objectives Covered
+- Alert on button click
+- Change text dynamically
+- Perform calculator operations
+- Validate form inputs
+- Display validation messages
+
+# Features
+- Animated gradient background
+- Glass-style user interface
+- Styled buttons with hover effects
+- Real-time validation feedback
+- Interactive calculator
+
+# Files Included
+- index.html – Structure and UI design
+- script.js – JavaScript functionality
+- README.md – Project documentation
+
+# JavaScript Concepts Used
+- Functions
+- DOM manipulation
+- Event handling
+- Conditional statements
+- Form validation logic
+- parseFloat and isNaN for calculations
+
+# How to Run
+1. Keep index.html and script.js in the same folder.
+2. Open index.html in a web browser.
+3. Interact with buttons, calculator, and form fields.
+
+# Author
+Created as part of Day 6 JavaScript Basics learning task.

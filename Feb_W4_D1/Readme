@@ -1,0 +1,49 @@
+# Introduction to Backend (Flask)
+
+# Project Overview
+This project demonstrates the basics of backend development using Flask.  
+It includes installing Flask, creating a simple backend application, running a local server, and displaying a welcome message in the browser.
+
+# Objectives Covered
+- Install Flask
+- Create a basic Flask project
+- Run a local development server
+- Render an HTML template
+- Display a welcome message in the browser
+
+# Project Structure
+Feb_W4_Day1/
+- app.py
+- templates/
+  - index.html
+- README.md
+
+# Technologies Used
+- Python
+- Flask
+- HTML
+- CSS (basic styling)
+
+# How to Install Flask
+Open terminal and run:
+pip install flask
+
+# How to Run the Project
+1. Open the project folder in VS Code.
+2. Open terminal inside the folder.
+3. Run: python app.py
+4. Open browser and go to:
+   http://127.0.0.1:5000
+
+# Expected Output
+A welcome page displayed in the browser served by Flask backend.
+
+# Learning Outcome
+- Understanding of backend basics
+- Running a local server
+- Using routes in Flask
+- Rendering templates from backend
+- Connecting backend with frontend
+
+# Author
+Created as part of Backend Development – Day 1 learning task.

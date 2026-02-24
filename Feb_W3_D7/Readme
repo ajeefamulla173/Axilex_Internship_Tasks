@@ -1,0 +1,50 @@
+# Mini Frontend Project
+
+# Project Overview
+This project is a mini frontend website created as part of Week 3 task.  
+It includes multiple interconnected pages styled with a common CSS file.
+
+# Pages Included
+- Home Page (index.html)
+- Registration Page (register.html)
+- Login Page (login.html)
+- Contact Page (contact.html)
+
+# Folder Structure
+Week3_Frontend_Project/
+- index.html
+- register.html
+- login.html
+- contact.html
+- style.css
+- script.js
+- README.md
+
+# Features
+- Navigation bar linking all pages
+- Registration form
+- Login form
+- Contact form
+- Modern gradient background
+- Reusable CSS styling
+- Clean and organized layout
+
+# Technologies Used
+- HTML5
+- CSS3
+- Basic JavaScript
+
+# How to Run
+1. Open the folder Week3_Frontend_Project.
+2. Open index.html in any web browser.
+3. Use navigation links to move between pages.
+
+# Learning Outcomes
+- Multi-page website creation
+- Folder structure organization
+- Navigation linking
+- Form design
+- Styling using external CSS
+
+# Author
+Created as part of Week 3 Frontend Development task.

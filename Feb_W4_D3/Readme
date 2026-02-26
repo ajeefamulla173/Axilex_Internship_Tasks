@@ -1,0 +1,63 @@
+ Python Database Connectivity (CRUD Operations)
+
+# Objective
+
+The objective of this task is to establish database connectivity using Python and perform basic database operations such as Insert, Select, Update, and Delete (CRUD operations).
+
+# Technologies Used
+
+* Python 3
+* SQLite Database
+* sqlite3 Module
+* Visual Studio Code
+
+# Database Used
+
+SQLite database (database.db) is used for storing and managing student records.
+
+# Steps Performed
+
+# Database Connection
+
+Python was connected to the SQLite database using the built-in sqlite3 module.
+
+# Table Creation
+
+A Students table was created with the following fields:
+
+* ID (Primary Key)
+* Name
+* Age
+* Course
+
+# CRUD Operations Implemented
+
+# Create (Insert)
+
+Inserted student data into the Students table.
+
+# Read (Select)
+
+Fetched and displayed all student records from the database.
+
+# Update
+
+Updated the age of a specific student record.
+
+# Delete
+
+Deleted a student record from the database.
+
+# Files Included
+
+* crud_operations.py – Python script performing database operations
+* database.db – SQLite database file
+* Screenshot of program execution
+
+# Output
+
+The program successfully demonstrates database connection, record insertion, record retrieval, record update, and record deletion.
+
+# Conclusion
+
+Python was successfully connected to the SQLite database, and all CRUD operations were implemented using SQL queries through the sqlite3 module.

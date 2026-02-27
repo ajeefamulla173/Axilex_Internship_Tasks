@@ -1,0 +1,30 @@
+Backnd Form and Data Storage
+
+Objective
+Create an HTML form, send data to backend using Flask, store data in SQLite database, and display stored records.
+
+Technologies Used
+Python
+Flask
+SQLite3
+HTML
+
+Steps Performed
+Installed Flask framework
+Created HTML student registration form
+Connected Flask backend with SQLite database
+Accepted user input from form
+Stored student data in database
+Fetched and displayed stored records on webpage
+
+Files Included
+app.py – Flask backend application
+database.db – SQLite database file
+templates/index.html – Student form page
+templates/students.html – Display stored data page
+
+Output
+Student details entered through the form are successfully stored in the database and displayed on the browser.
+
+Result
+Backend form submission and database storage implemented successfully using Flask and SQLite.

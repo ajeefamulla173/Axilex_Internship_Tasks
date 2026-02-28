@@ -1,0 +1,42 @@
+Day 5 – Login System (Basic Authentication)
+
+Objective
+To create a basic login system using Flask and SQLite database where users can log in using valid credentials.
+
+Tools Used
+Python
+Flask
+SQLite
+HTML
+VS Code
+
+Project Description
+A login system was developed where users enter their username and password through an HTML form.
+The entered details are validated using records stored in the SQLite database.
+If the credentials are correct, the user is redirected to the dashboard page.
+If the credentials are incorrect, an error message is displayed.
+
+Steps Performed
+
+1. Created a login form using HTML.
+2. Created Users table in SQLite database.
+3. Inserted sample username and password into database.
+4. Connected Flask backend with SQLite database.
+5. Validated login credentials using SQL query.
+6. Redirected user to dashboard on successful login.
+7. Displayed error message for invalid login attempt.
+
+Database Table
+
+Users Table
+id – Primary Key
+username – User name
+password – User password
+
+Output
+Login page accepts user credentials.
+Valid login redirects to dashboard page.
+Invalid login shows error message.
+
+Result
+Successfully implemented a basic authentication login system using Flask and SQLite.

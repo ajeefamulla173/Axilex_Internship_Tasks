@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; margin:0; padding:0; }
+        .container { width: 90%; margin: 20px auto; }
+        h2 { text-align: center; color: #4b0082; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #6a5acd; text-align: center; }
+        th { background: #6a5acd; color: white; }
+        a { text-decoration: none; color: white; background: #6a5acd; padding: 5px 10px; border-radius: 5px; }
+        a:hover { background: #4b0082; }
+        form { margin-top: 20px; text-align: center; }
+        input { padding: 8px; margin: 5px; width: 200px; border-radius: 5px; border: 1px solid #ccc; }
+        button { padding: 8px 15px; border: none; border-radius: 5px; background: #6a5acd; color: white; cursor: pointer; }
+        button:hover { background: #4b0082; }
+        .logout { float: right; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ session['user'] }}</h2>
+        <a href="/logout" class="logout">Logout</a>
+
+        <h3>Add Student</h3>
+        <form method="POST" action="/add">
+            <input type="text" name="name" placeholder="Student Name" required>
+            <input type="email" name="email" placeholder="Student Email" required>
+            <button type="submit">Add</button>
+        </form>
+
+        <h3>Student Records</h3>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+            {% for student in students %}
+            <tr>
+                <td>{{ student.id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.email }}</td>
+                <td>
+                    <a href="/edit/{{ student.id }}">Edit</a>
+                    <a href="/delete/{{ student.id }}">Delete">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

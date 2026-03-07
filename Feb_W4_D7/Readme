@@ -1,0 +1,37 @@
+# Mini Backend Project
+
+# Project Overview
+This project demonstrates a full backend application using **Python Flask** and **SQLite**. The application allows users to register, login, and manage student records through a dashboard with CRUD (Create, Read, Update, Delete) operations.  
+
+# Features
+- User registration  
+- User login (basic authentication)  
+- Dashboard displaying student records  
+- Add new student record  
+- Edit existing record  
+- Delete record from database  
+- Data stored using SQLite database  
+
+# Project Structure
+Week4_Backend_Project/  
+- app.py  
+- database.db  
+- templates/  
+  - index.html        # Homepage / Dashboard  
+  - register.html     # Registration page  
+  - login.html        # Login page  
+  - dashboard.html    # Dashboard with student CRUD  
+  - edit_student.html # Edit student page  
+- README.md  
+
+# Technologies Used
+- Python  
+- Flask  
+- SQLite  
+- HTML  
+
+# How to Run the Project
+1. Open the project folder in VS Code.  
+2. Install Flask if not installed:  
+   ```bash
+   pip install flask

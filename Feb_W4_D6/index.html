@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CRUD Module</title>
+</head>
+
+<body>
+
+<h2>Add Student</h2>
+
+<form action="/add" method="post">
+<input type="text" name="name" placeholder="Enter Name" required>
+<input type="email" name="email" placeholder="Enter Email" required>
+<button type="submit">Add Record</button>
+</form>
+
+<br>
+
+<h2>Student Records</h2>
+
+<table border="1">
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Actions</th>
+</tr>
+
+{% for student in students %}
+
+<tr>
+<td>{{ student.id }}</td>
+<td>{{ student.name }}</td>
+<td>{{ student.email }}</td>
+
+<td>
+<a href="/edit/{{ student.id }}">Edit</a>
+<a href="/delete/{{ student.id }}">Delete</a>
+</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>

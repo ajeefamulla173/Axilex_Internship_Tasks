@@ -1,0 +1,50 @@
+#  CRUD Mini Module
+
+# Project Overview
+This project demonstrates a CRUD (Create, Read, Update, Delete) module using Python Flask and SQLite database. The application allows users to add, view, edit, and delete student records through a web interface.
+
+# Features
+- Add new student record
+- View all student records
+- Edit existing record
+- Delete record from database
+- Data stored using SQLite database
+
+# Project Structure
+Feb_W4_Day6/
+- app.py
+- database.db
+- templates/
+  - index.html
+  - edit.html
+- README.md
+
+# Technologies Used
+- Python
+- Flask
+- SQLite
+- HTML
+
+# How to Run the Project
+1. Open the project folder in VS Code.
+2. Install Flask if not installed:
+   pip install flask
+3. Run the application:
+   python app.py
+4. Open browser and go to:
+   http://127.0.0.1:5000
+
+# Expected Output
+- User can add student name and email.
+- Records are displayed in a table.
+- Records can be edited and updated.
+- Records can be deleted from the database.
+
+# Learning Outcome
+- Understand CRUD operations
+- Connect Flask with SQLite database
+- Perform database operations using Python
+- Display database records on a web page
+
+# Author
+Created as part of Backend Development – Day 6 task.
